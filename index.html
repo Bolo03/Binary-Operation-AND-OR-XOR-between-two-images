@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="styleSheet" href="style.css" />
+    <title>Binary operation</title>
+  </head>
+  <body>
+    <header>
+      <h1>Binary Operation between two images</h1>
+    </header>
+    <div class="photos">
+      <canvas id="canvas1"></canvas>
+      <canvas id="canvas2"></canvas>
+      <canvas id="canvas3"></canvas>
+    </div>
+    <div class="butons">
+      <button id="loadImg">Load images</button>
+      <button id="and">AND operation</button>
+      <button id="or">OR operation</button>
+      <button id="xor">XOR operation</button>
+      <button id="download">Download image</button>
+    </div>
+    <div class="text">
+      <p>Execution time:</p>
+      <p id="time"></p>
+    </div>
+
+    <img src="background.jpg" alt="background" id="background" />
+    <script src="script.js"></script>
+  </body>
+</html>
